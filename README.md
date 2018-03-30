@@ -1,4 +1,4 @@
-# Swift and iOS Workshop 📱
+# Swift and iOS Workshop
 
 Have you wanted to learn how to make app? Don't know how? Don't even know where to start? Well you've come to the right place!
 
