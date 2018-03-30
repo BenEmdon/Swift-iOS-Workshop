@@ -8,7 +8,7 @@ myVariable = 50
 let myConstant = 42
 
 //: ### Types and Type Inference
-// All variables and constants have a type (like in Java and C/C++).
+// All values have a type (like in Java and C/C++).
 // While you didn't explicitly specify the type of the variable and constant above ☝️ the type was INFERED by the compiler.
 // ☝️ Above the compiler infered that the types of `myVariable` and `myConstant` were of type Int.
 
@@ -41,3 +41,4 @@ let emptyArrayExplicit: [String] = []
 let emptyDictionaryInfered = [String: Int]()
 let emptyDictionaryExplicit: [String: Int] = [:]
 
+//: [👉 continue the tour](@next)
