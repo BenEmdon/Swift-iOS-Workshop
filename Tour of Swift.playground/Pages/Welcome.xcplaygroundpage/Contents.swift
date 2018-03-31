@@ -10,7 +10,9 @@
 
  View Controllers manage the the view hierarchy of your UIKit app. It manages all the UI elements such as buttons, text boxes, and images. It tells them where to go, and what to do. You could describe it as the glue that holds your app together.
  
- Swift Playgrounds are the perfect place to play, learn, and prototype code.
+ Stack Views are interfaces for laying out a collection of views in eaither a row or column. This allows for a UI that can dynamically adapt to the device orientation, screen size, or changes in available space. You can find an example of [Stack Views](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/LayoutUsingStackViews.html).
+ 
+ Swift Playgrounds are the perfect place to play, learn, and prototype your code.
 */
 
 // Lets start by printing "Hello World!".
