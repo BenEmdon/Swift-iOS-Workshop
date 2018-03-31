@@ -6,5 +6,6 @@
         <page name='Control Flow and Optionals'/>
         <page name='Functions and Closures'/>
         <page name='Unit Converter'/>
+        <page name='Views and ViewControllers'/>
     </pages>
 </playground>

@@ -28,4 +28,4 @@ if let string = optionalString {
 	print(string)
 }
 
-//: [Next](@next)
+//: [👉 continue the tour](@next)

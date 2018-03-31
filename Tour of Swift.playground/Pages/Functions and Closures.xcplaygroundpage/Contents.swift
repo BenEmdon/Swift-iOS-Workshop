@@ -21,4 +21,4 @@ factorial(number: 4)
 let factorialFunction = factorial
 factorialFunction(4)
 
-//: [Next](@next)
+//: [👉 continue the tour](@next)
