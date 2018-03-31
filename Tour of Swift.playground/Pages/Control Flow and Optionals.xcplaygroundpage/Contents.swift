@@ -15,7 +15,7 @@ for score in individualScores {
 }
 print(teamScore)
 
-//: Optionals
+//: # Optionals
 // An optional value either contains a value or contains `nil` to indicate that a value is missing.
 var optionalString: String? = nil
 print(optionalString)
