@@ -40,6 +40,8 @@ let blueView = UIView(frame:
 // Lets make our view red!
 blueView.backgroundColor = .red
 
+// View Controllers manage the the view hierarchy of your UIKit app. It manages all the UI elements such as buttons, text boxes, and images. It tells them where to go, and what to do. You could describe it as the glue that holds your app together.
+
 class MyViewController: UIViewController {
 	let amount = 10
 
