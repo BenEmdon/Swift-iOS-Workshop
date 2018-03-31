@@ -29,7 +29,7 @@ import UIKit
 
 // Here we will create our first view!
 // We will give it a frame (a rectangle) so that we can see it
-let view = UIView(frame:
+let blueView = UIView(frame:
 	CGRect(
 		x: 0,
 		y: 0,
@@ -38,7 +38,7 @@ let view = UIView(frame:
 	)
 )
 // Lets make our view red!
-view.backgroundColor = .red
+blueView.backgroundColor = .red
 
 class MyViewController: UIViewController {
 	let amount = 10
@@ -54,6 +54,7 @@ class MyViewController: UIViewController {
 
 		view.backgroundColor = .white
 
+//		Stack Views are interfaces for laying out a collection of views in eaither a row or column.
 		// Create vertical Stack View
 		let verticalStackView = UIStackView()
 		verticalStackView.axis = .vertical
@@ -113,6 +114,9 @@ class MyViewController: UIViewController {
 		view.addSubview(verticalStackView)
 
 		// Add constraints
+//		Auto Layout allows your app to dynamically arrange and size UI elements, based off the list pf constraints specified.
+//		A constraint is a basically a rule that tells your UI elements where to go
+//		Using autolayout will ensure that your app looks good, no matter what screen size it's on.
 		NSLayoutConstraint.activate([
 			verticalStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
 			verticalStackView.topAnchor.constraint(equalTo: view.topAnchor),
