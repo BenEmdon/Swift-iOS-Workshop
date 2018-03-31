@@ -17,7 +17,7 @@ factorial(number: 2)
 factorial(number: 3)
 factorial(number: 4)
 
-// Since functions are closures, they can be passed around like other values.
+// Since functions are closures, they can be passed around like other values
 let factorialFunction = factorial
 factorialFunction(4)
 
