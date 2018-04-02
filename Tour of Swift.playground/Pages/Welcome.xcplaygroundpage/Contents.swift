@@ -8,8 +8,6 @@
  
  Swift is a relatively new programming language that uses Automatic reference counting (ARC) instead of garbage collection. In Swift, each object keeps a count of how many things point to it as a way of knowing if it's still useful to the program. If its internal count ever goes to zero then it is no longer needed by the program, and it destroys itself.
 
-
-
  Swift Playgrounds are the perfect place to play, learn, and prototype your code.
 */
 
